@@ -7,7 +7,7 @@
     <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
       <form class="space-y-6" @submit.prevent="login">
         <div>
-          <label for="email" class="block text-sm font-medium leading-6">Email address</label>
+          <label for="email" class="flex block text-sm font-medium leading-6">Email address</label>
           <div class="mt-2">
             <input id="email" name="email" type="email" autocomplete="email" required="" class="block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder: focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" v-model="postData.user.email" />
           </div>
